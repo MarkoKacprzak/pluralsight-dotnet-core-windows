@@ -1,8 +1,10 @@
-﻿namespace WeatherConsole
+﻿using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Runtime.Serialization.Json;
+
+namespace WeatherConsole
 {
-	using System;
-	using System.Net.Http;
-	using System.Threading.Tasks;
 
 	public class OpenWeatherMapClient
 	{
